@@ -8,9 +8,11 @@
     --highlights-color: #DB45F1;
     --font-color: white ; 
     --title-font: 'Montserrat', sans-serif;
+    --secondary-font-color:#808080;
     --main-font: 'Roboto', sans-serif;
     --pixel-font: 'Pixelify Sans', sans-serif;
     background-color: var(--primary-color);
+
   }
 
   .nav-container{
@@ -18,6 +20,7 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
   }
 
   .logo-container{
@@ -51,6 +54,7 @@
     text-align: center;
     font-family: var(--title-font);
     border-radius: 4px;
+    line-height: 26px;
   }
 
   .gh-btn{
@@ -62,6 +66,7 @@
     text-align: center;
     font-family: var(--title-font);
     border-radius: 4px;
+    line-height: 26px;
   }
 
   /* main-section */
@@ -89,6 +94,7 @@
   .main-description{
     font-size: 22px;
     font-family: var(--main-font);
+    color: var(--secondary-font-color);
   }
 
   .lets-go-btn{
@@ -109,6 +115,18 @@
 
   .lets-go-btn:hover {
     color: var(--font-color);
+}
+
+.main-footer{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer img{
+  width: 26px;
 }
 
 
