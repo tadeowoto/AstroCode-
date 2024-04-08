@@ -70,15 +70,45 @@
   .main-lobby-section{
     width: 100%;
     height: calc(100vh - 100px);
+    color: var(--font-color);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+  .highlight{
+    color: var(--highlights-color);
+  }
 
   .main-title{
     font-size: 60px;
+    font-family: var(--title-font);
+    margin-bottom: 16px;
   }
 
+  .main-description{
+    font-size: 22px;
+    font-family: var(--main-font);
+  }
+
+  .lets-go-btn{
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 60px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    border-image: linear-gradient(to right, var(--secondary-color), var(--highlights-color));
+    border-image-slice: 1;
+    border-radius: 5px;
+    font-family: var(--title-font);
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .lets-go-btn:hover {
+    color: var(--font-color);
+}
 
 
