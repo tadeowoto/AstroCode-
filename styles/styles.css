@@ -12,7 +12,6 @@
     --main-font: 'Roboto', sans-serif;
     --pixel-font: 'Pixelify Sans', sans-serif;
     background-color: var(--primary-color);
-
   }
 
   .nav-container{
@@ -86,7 +85,7 @@
   }
 
   .main-title{
-    font-size: 60px;
+    font-size: 50px;
     font-family: var(--title-font);
     margin-bottom: 16px;
   }
@@ -128,5 +127,13 @@
 .main-footer img{
   width: 26px;
 }
+
+/* lenguages */
+
+
+
+
+
+
 
 
