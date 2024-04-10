@@ -11,7 +11,7 @@
     --secondary-font-color:#808080;
     --main-font: 'Roboto', sans-serif;
     --pixel-font: 'Pixelify Sans', sans-serif;
-    background-color: var(--primary-color);
+    
   }
 
   .nav-container{
@@ -130,7 +130,38 @@
 
 /* lenguages */
 
+.section-lenguages-container{
+  width: 100%;
+  height: 100vh;
+  background-color: #b439c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.main-lenguages-container{
+  width: 90%;
+  height: 500px;
+  background-color: aqua;
+  border-radius: 20px;
+  display: flex;
+}
+
+.lenguages-grid-container{
+  width: 50%;
+  height: 100%;
+  background-color: beige;
+}
+
+.grid-description{
+  width: 50%;
+  height: 100%;
+}
+
+#grid-item-image{
+  width: 60px;
+  height: 60px;
+}
 
 
 
