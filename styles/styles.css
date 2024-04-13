@@ -27,6 +27,9 @@
     display: flex;
     align-items: center;
   }
+  .main-logo:hover{
+    color: var(--highlights-color);
+  }
 
   .main-logo{
     margin-left: 40px;
