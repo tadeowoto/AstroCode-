@@ -160,16 +160,22 @@
   grid-column-gap: 0px;
 }
 
-#grid-item{
+.grid-item{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 70px;
   height: 70px;
-  background-color: #DB45F1;
+  background-color: #fafafa07;
+  backdrop-filter: blur(0.4rem);
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+}
+.grid-item:hover{
+  transform: translateY(-10px);
 }
 
-#grid-item-image{
+.grid-item-image{
   width: 60px;
   height: 60px;
 }
@@ -179,6 +185,49 @@
   width: 50%;
   height: 100%;
 }
+
+.lenguages-title{
+  font-size: 28px;
+  color: var(--font-color);
+  font-family: var(--title-font);
+  margin-bottom: 16px;
+}
+
+.description{
+  font-size: 20px;
+  color: var(--secondary-font-color);
+  font-family: var(--main-font);
+}
+
+#java:hover{
+  filter: invert(52%) sepia(97%) saturate(7718%) hue-rotate(341deg) brightness(91%) contrast(102%);
+}
+#javascript:hover{
+  filter: invert(30%) sepia(98%) saturate(507%) hue-rotate(335deg) brightness(105%) contrast(91%);
+}
+#html:hover{
+  filter: invert(49%) sepia(86%) saturate(2308%) hue-rotate(345deg) brightness(94%) contrast(91%);
+}
+#css:hover{
+  filter: invert(35%) sepia(98%) saturate(4558%) hue-rotate(210deg) brightness(102%) contrast(105%);
+}
+#react:hover{
+  filter: invert(27%) sepia(56%) saturate(7252%) hue-rotate(160deg) brightness(122%) contrast(99%);
+}
+#python:hover{
+  filter: invert(22%) sepia(8%) saturate(6441%) hue-rotate(330deg) brightness(103%) contrast(103%);
+}
+#c:hover{
+  filter: invert(87%) sepia(40%) saturate(4275%) hue-rotate(195deg) brightness(97%) contrast(103%);
+}
+#php:hover{
+  filter: invert(61%) sepia(46%) saturate(3383%) hue-rotate(239deg) brightness(96%) contrast(107%);
+}
+#typescript:hover{
+  filter: invert(49%) sepia(14%) saturate(3528%) hue-rotate(178deg) brightness(85%) contrast(81%);
+}
+
+
 
 
 
